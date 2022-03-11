@@ -1,0 +1,60 @@
+a.navbar-brand {
+    font-family: 'Open Sans';
+    font-size: 1.5rem!important;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+}
+
+a.nav-link{
+    font-family: 'Open Sans';
+    font-size: 0.75rem!important;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+}
+
+.header-main {
+    top:32%;
+}
+
+.header-main h1, .header-main h3 {
+    font-family: 'Arial';
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 4.5rem;
+        letter-spacing: 0.1em;
+    }
+    h3 {
+        font-size: 1.5rem;
+        letter-spacing: 0.1em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.1em;
+    }
+    h3 {
+        font-size: 1.2rem;
+        letter-spacing: 0.1em;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.1em;
+    }
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.1em;
+    }
+}
+
+.scroll-main {
+    bottom:5%;
+    font-family: 'Open Sans';
+    font-size: 0.8rem;
+}
