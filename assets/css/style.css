@@ -1,4 +1,8 @@
 /* Style Main */
+.main{
+    z-index: 2;
+}
+
 a.navbar-brand {
     font-family: 'Open Sans';
     font-size: 1.5rem!important;
@@ -19,6 +23,7 @@ a.nav-link{
 
 .header-main h1, .header-main h3 {
     font-family: 'Arial';
+    letter-spacing: 0.1em;
 }
 
 .scroll-main {
@@ -27,8 +32,29 @@ a.nav-link{
     font-size: 0.8rem;
 }
 
-/* Style Gameplay & game feature Options */
+/* Style Gameplay Options, Game Feature, & System Req */
+.gameplay-options{
+    margin-top: -1%;
+    z-index: 1;
+}
+
 .game-feature{
+    margin-top: -7%;
+}
+
+.game-feature-container{
+    top: 25%;
+}
+
+.system-req{
+    margin-top: -1%;
+}
+
+.system-req-header{
+    top: 15%;
+}
+
+.system-req-container{
     top: 25%;
 }
 
@@ -52,18 +78,20 @@ a.nav-link{
     line-height: 22px;
 }
 
+.text-game-4{
+    font-family: 'Arial';
+    line-height: 16px;
+    letter-spacing: 0.14em;
+}
+
 /* All Size Style */
 @media screen and (min-width: 992px) {
-    /* Style Main */
     .header-main h1 {
         font-size: 4.5rem;
-        letter-spacing: 0.1em;
     }
     .header-main h3 {
         font-size: 1.5rem;
-        letter-spacing: 0.1em;
     }
-    /* Style Gameplay Options */
     .text-game-1{
         font-size: 1.5rem!important;
     }
@@ -73,19 +101,18 @@ a.nav-link{
     .text-game-3{
         font-size: 1.13rem!important;
     }
+    .text-game-4{
+        font-size: 0.9rem!important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    /* Style Main */
     .header-main h1 {
         font-size: 2.5rem;
-        letter-spacing: 0.1em;
     }
     .header-main h3 {
         font-size: 1.2rem;
-        letter-spacing: 0.1em;
     }
-    /* Style Gameplay Options */
     .text-game-1{
         font-size: 1rem!important;
     }
@@ -94,28 +121,32 @@ a.nav-link{
     }
     .text-game-3{
         font-size: 0.7rem!important;
+        line-height: 14px;
+    }
+    .text-game-4{
+        font-size: 0.6rem!important;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-    /* Style Main */
     .header-main h1 {
         font-size: 2rem;
-        letter-spacing: 0.1em;
     }
     .header-main h3 {
         font-size: 1rem;
-        letter-spacing: 0.1em;
     }
-
-    /* Style Gameplay Options */
     .text-game-1{
         font-size: 0.8rem!important;
     }
     .text-game-2{
         font-size: 2.5rem!important;
+        line-height: 44px;
     }
     .text-game-3{
+        font-size: 0.5rem!important;
+        line-height: 10px;
+    }
+    .text-game-4{
         font-size: 0.5rem!important;
     }
 }
