@@ -32,7 +32,7 @@ a.nav-link{
     font-size: 0.8rem;
 }
 
-/* Style Gameplay Options, Game Feature, System Req, & Top Score */
+/* Style Gameplay Options, Game Feature, System Req, Top Score, & Footer*/
 .gameplay-options{
     margin-top: -1%;
     z-index: 1;
@@ -58,9 +58,26 @@ a.nav-link{
     top: 25%;
 }
 
+.top-score{
+    z-index: 2;
+}
+
 .top-score-card{
     top: -3%; 
     left: 12%;
+}
+
+.footer{
+    margin-top: -1%;
+    z-index: 1;
+}
+
+.footer-container{
+    bottom: 5%;
+}
+
+hr {
+    height: 2px;
 }
 
 .text-game-1, 
@@ -89,7 +106,6 @@ a.nav-link{
     letter-spacing: 0.14em;
 }
 
-/* All Size Style */
 @media screen and (min-width: 992px) {
     .main-header h1 {
         font-size: 4.5rem;
