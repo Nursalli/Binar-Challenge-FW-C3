@@ -58,10 +58,6 @@ a.nav-link{
     top: 25%;
 }
 
-.top-score{
-    z-index: 2;
-}
-
 .top-score-card{
     top: -3%; 
     left: 12%;
@@ -69,7 +65,6 @@ a.nav-link{
 
 .footer{
     margin-top: -1%;
-    z-index: 1;
 }
 
 .footer-container{
